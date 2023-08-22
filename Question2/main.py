@@ -17,7 +17,7 @@ def main():
   number = getNumbers(urls)
   number = sortAndRemoveDuplicates(number)
 
-  print('{\n  "numbers":'+" "+ json.dumps(number)+"\n}")
+  print('{\n  "numbers":'+ " "+ json.dumps(number)+"\n}")
   
 if __name__ == "__main__":
   main()
